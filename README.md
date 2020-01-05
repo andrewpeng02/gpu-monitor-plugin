@@ -1,5 +1,5 @@
 # GPU Monitor IntelliJ Plugin
-This [IntelliJ plugin](https://github.com/andrewpeng02/gpu-monitor-plugin) adds graphs for GPU temperature, usage, and memory usage in the right tool window.
+This [IntelliJ plugin](https://plugins.jetbrains.com/plugin/13597-gpu-monitor) adds graphs for GPU temperature, usage, and memory usage in the right tool window.
 You can customize which graphs show, how often they update, and how long ago they show. 
 ## Compatibility 
 Compatible with all Jetbrains IDEs.
