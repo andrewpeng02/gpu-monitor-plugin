@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<options>
+  <configurable id="gpu-monitor" configurable_name="GPU Monitor">
+    <option name="gpu" hit="GPU Monitor" />
+    <option name="monitor" hit="GPU Monitor" />
+    <option name="graphs" hit="Graphs" />
+    <option name="gpu" hit="Show GPU Temperature Graph" />
+    <option name="graph" hit="Show GPU Temperature Graph" />
+    <option name="show" hit="Show GPU Temperature Graph" />
+    <option name="temperature" hit="Show GPU Temperature Graph" />
+    <option name="gpu" hit="Show GPU Usage Graph" />
+    <option name="graph" hit="Show GPU Usage Graph" />
+    <option name="show" hit="Show GPU Usage Graph" />
+    <option name="usage" hit="Show GPU Usage Graph" />
+    <option name="graph" hit="Show Memory Usage Graph" />
+    <option name="memory" hit="Show Memory Usage Graph" />
+    <option name="show" hit="Show Memory Usage Graph" />
+    <option name="usage" hit="Show Memory Usage Graph" />
+  </configurable>
+</options>
+

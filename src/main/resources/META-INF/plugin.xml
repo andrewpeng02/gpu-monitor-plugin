@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>gpu-monitor</id>
+    <name>GPU Monitor</name>
+    <vendor email="andrewpeng02@gmail.com" url="andrewpeng.dev">Andrew Peng</vendor>
+
+    <change-notes> Changenotes and description are located in the build.gradle file </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <toolWindow id="GPU Monitor" secondary="true" anchor="right" factoryClass="GPUMonitorFactory"/>
+        <applicationService serviceImplementation="GPUMonitorSettings"/>
+        <applicationConfigurable groupId="tools" displayName="GPU Monitor" instance="GPUMonitorConfig" />
+    </extensions>
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>

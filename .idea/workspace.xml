@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8f3fad4-86c8-4368-bd68-072359567149" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gpu-monitor" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gpu-monitor" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gpu-monitor" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="intellij" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Vu7k1Uk4iysCbJ8ZMTW8bfGv1M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="481" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jfreechart-1.5.0.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../" />
+      <recent name="$USER_HOME$/IdeaProjects" />
+      <recent name="$USER_HOME$/IdeaProjects/" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.gpu-monitor [buildPlugin]">
+    <configuration name="Plugin" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":runIde" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="gpu-monitor [buildPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildPlugin" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="gpu-monitor [runIde]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runIde" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.gpu-monitor [runIde]" />
+        <item itemvalue="Gradle.gpu-monitor [buildPlugin]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8f3fad4-86c8-4368-bd68-072359567149" name="Default Changelist" comment="" />
+      <created>1578091265252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578091265252</updated>
+      <workItem from="1578091269454" duration="3354000" />
+      <workItem from="1578103657079" duration="4744000" />
+      <workItem from="1578150026624" duration="319000" />
+      <workItem from="1578150358824" duration="6481000" />
+      <workItem from="1578162418212" duration="7541000" />
+      <workItem from="1578169973501" duration="272000" />
+      <workItem from="1578185201420" duration="5120000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="875" y="386" width="800" height="675" key="#Plugins" timestamp="1578191344454">
+      <screen x="0" y="10" width="2560" height="1430" />
+    </state>
+    <state x="875" y="386" width="800" height="675" key="#Plugins/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578191344454" />
+    <state x="875" y="386" width="800" height="675" key="#Project_Structure" timestamp="1578091745764">
+      <screen x="0" y="10" width="2560" height="1430" />
+    </state>
+    <state x="875" y="386" width="800" height="675" key="#Project_Structure/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578091745764" />
+    <state x="1088" y="431" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1578166878302">
+      <screen x="0" y="10" width="2560" height="1430" />
+    </state>
+    <state x="1088" y="431" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578166878302" />
+    <state x="1012" y="511" width="525" height="426" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578168339858">
+      <screen x="0" y="10" width="2560" height="1430" />
+    </state>
+    <state x="1012" y="511" width="525" height="426" key="#com.intellij.ide.util.TreeClassChooserDialog/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578168339858" />
+    <state x="1012" y="517" width="525" height="414" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1578150282730">
+      <screen x="0" y="10" width="2560" height="1430" />
+    </state>
+    <state x="1012" y="517" width="525" height="414" key="#com.intellij.ide.util.TreeFileChooserDialog/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578150282730" />
+    <state x="1150" y="608" width="259" height="233" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff" timestamp="1578168354362">
+      <screen x="0" y="10" width="2560" height="1430" />
+    </state>
+    <state x="1150" y="608" width="259" height="233" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578168354362" />
+    <state x="1058" y="467" width="424" height="511" key="FileChooserDialogImpl" timestamp="1578150592052">
+      <screen x="0" y="10" width="2560" height="1430" />
+    </state>
+    <state x="1058" y="467" width="424" height="511" key="FileChooserDialogImpl/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578150592052" />
+    <state width="2514" height="379" key="GridCell.Tab.0.bottom" timestamp="1578192205632">
+      <screen x="0" y="10" width="2560" height="1430" />
+    </state>
+    <state width="2514" height="379" key="GridCell.Tab.0.bottom/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578192205632" />
+    <state width="2514" height="379" key="GridCell.Tab.0.center" timestamp="1578192205632">
+      <screen x="0" y="10" width="2560" height="1430" />
+    </state>
+    <state width="2514" height="379" key="GridCell.Tab.0.center/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578192205632" />
+    <state width="2514" height="379" key="GridCell.Tab.0.left" timestamp="1578192205632">
+      <screen x="0" y="10" width="2560" height="1430" />
+    </state>
+    <state width="2514" height="379" key="GridCell.Tab.0.left/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578192205632" />
+    <state width="2514" height="379" key="GridCell.Tab.0.right" timestamp="1578192205632">
+      <screen x="0" y="10" width="2560" height="1430" />
+    </state>
+    <state width="2514" height="379" key="GridCell.Tab.0.right/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578192205632" />
+    <state x="763" y="302" width="1024" height="843" key="SettingsEditor" timestamp="1578166222158">
+      <screen x="0" y="10" width="2560" height="1430" />
+    </state>
+    <state x="763" y="302" width="1024" height="843" key="SettingsEditor/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578166222158" />
+    <state x="916" y="297" width="728" height="855" key="find.popup" timestamp="1578163458231">
+      <screen x="0" y="10" width="2560" height="1430" />
+    </state>
+    <state x="916" y="297" width="728" height="855" key="find.popup/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578163458231" />
+    <state x="943" y="336" width="672" height="678" key="search.everywhere.popup" timestamp="1578191333114">
+      <screen x="0" y="10" width="2560" height="1430" />
+    </state>
+    <state x="943" y="336" width="672" height="678" key="search.everywhere.popup/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578191333114" />
+  </component>
+</project>
