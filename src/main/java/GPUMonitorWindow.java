@@ -122,9 +122,10 @@ public class GPUMonitorWindow {
     }
 
     public ChartPanel createGraph(List<Float> numbers, List<Float> timeSteps, String title, String xAxisLabel, String yAxisLabel, Float rangeAxisMax) {
+        Float currentTime = ((float)(System.currentTimeMillis() - startTime)) / 1000 / 60;
         XYSeries series = new XYSeries(title);
         for(int i = 0; i < numbers.size(); i++) {
-            series.add(timeSteps.get(i), numbers.get(i));
+            series.add(timeSteps.get(i) - currentTime, numbers.get(i));
         }
 
         XYSeriesCollection dataset = new XYSeriesCollection();
@@ -144,9 +145,8 @@ public class GPUMonitorWindow {
         ValueAxis rangeAxis = xyPlot.getRangeAxis();
         rangeAxis.setRange(0.0, rangeAxisMax);
 
-        Float currentTime = ((float)(System.currentTimeMillis() - startTime)) / 1000 / 60;
         ValueAxis domainAxis = xyPlot.getDomainAxis();
-        domainAxis.setRange(currentTime - windowLength, currentTime);
+        domainAxis.setRange(-1 * windowLength, 0);
         return new ChartPanel(chart);
     }
 
