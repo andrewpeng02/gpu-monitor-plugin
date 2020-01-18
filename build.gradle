@@ -3,7 +3,7 @@ plugins {
     id 'org.jetbrains.intellij' version '0.4.15'
 }
 
-version '1.1'
+version '1.2'
 
 sourceCompatibility = 1.8
 
@@ -26,6 +26,10 @@ patchPluginXml {
         """
 
     changeNotes """
+        <h3>Changes in 1.2</h3>
+        <ul>
+            <li>Fixed flickering
+        </ul>
         <h3>Changes in 1.1</h3>
         <ul>
             <li>Added darcula theme.

@@ -31,8 +31,9 @@ public class GPUMonitorWindow {
     private List<Float> timeSteps = new ArrayList<>(); // in minutes
     private Long startTime; // in milliseconds
 
+    private int previousWidth;
     private Float windowLength;
-    private Float refreshFrequency;
+    private Float refreshTime;
     private Float totalMemory;
     private List<Float> memoryUsage = new ArrayList<>();
     private List<Float> gpuUsage = new ArrayList<>();
@@ -47,19 +48,20 @@ public class GPUMonitorWindow {
         // Set settings
         settings = GPUMonitorSettings.getInstance();
         windowLength = settings.getWindowLength();
-        refreshFrequency = settings.getRefreshFrequency();
+        refreshTime = settings.getRefreshFrequency();
 
         windowLengthField.setText(String.valueOf(windowLength));
-        refreshTimeField.setText(String.valueOf(refreshFrequency));
+        refreshTimeField.setText(String.valueOf(refreshTime));
 
         startTime = System.currentTimeMillis();
         Timer timer = new Timer();
-        timer.schedule(new RefreshGPUStats(), 0, 250);
+        timer.schedule(new RefreshGPUStats(), 0, (int) (refreshTime * 1000));
 
         gpuTempPanel.setLayout(new BorderLayout());
         gpuUsagePanel.setLayout(new BorderLayout());
         memoryUsagePanel.setLayout(new BorderLayout());
 
+        previousWidth = gpuMonitorPanel.getWidth();
         // Update timer if the user changes the refresh frequency
         refreshTimeField.addActionListener(new ActionListener(){
                 public void actionPerformed(ActionEvent e){
@@ -67,11 +69,11 @@ public class GPUMonitorWindow {
 
                     Timer timer = new Timer();
                     try {
-                        refreshFrequency = Float.parseFloat(refreshTimeField.getText());
-                        settings.setRefreshFrequency(refreshFrequency);
-                        timer.schedule(new RefreshGPUStats(), 0, (int) (refreshFrequency * 1000));
+                        refreshTime = Float.parseFloat(refreshTimeField.getText());
+                        settings.setRefreshFrequency(refreshTime);
+                        timer.schedule(new RefreshGPUStats(), 0, (int) (refreshTime * 1000));
                     } catch (NumberFormatException exception) {
-                        refreshTimeField.setText(String.valueOf(refreshFrequency));
+                        refreshTimeField.setText(String.valueOf(refreshTime));
                     }
                 }});
 
@@ -87,7 +89,7 @@ public class GPUMonitorWindow {
     }
 
 
-    public void setGPUStats() {
+    public void setGPUStats(Boolean updateCharts) {
         timeSteps.add(((float)(System.currentTimeMillis() - startTime)) / 1000 / 60);
 
         HashMap<String, Float> gpuStats = getGPUStats();
@@ -98,30 +100,32 @@ public class GPUMonitorWindow {
         gpuClock.add(gpuStats.get("gpu clock"));
 
         // Update theme if needed
-        if(!settings.getChartTheme().equals(currentTheme)) {
-            ChartFactory.setChartTheme(settings.getChartTheme());
-            currentTheme = settings.getChartTheme();
-        }
+        if(updateCharts) {
+            if (!settings.getChartTheme().equals(currentTheme)) {
+                ChartFactory.setChartTheme(settings.getChartTheme());
+                currentTheme = settings.getChartTheme();
+            }
 
-        gpuTempPanel.removeAll();
-        if(settings.getEnableGPUTemp()) {
-            gpuTempPanel.add(createGraph(gpuTemp, timeSteps, "GPU Temperature", "Time (min)", "Temperature (C)", (float) 100));
-        }
+            gpuTempPanel.removeAll();
+            if (settings.getEnableGPUTemp()) {
+                gpuTempPanel.add(createGraph(gpuTemp, timeSteps, "GPU Temperature", "Time (min)", "Temperature (C)", (float) 0, (float) 100));
+            }
 
-        gpuUsagePanel.removeAll();
-        if(settings.getEnableGPUUsage()) {
-            gpuUsagePanel.add(createGraph(gpuUsage, timeSteps, "GPU Usage", "Time (min)", "Percentage", (float) 100));
-        }
+            gpuUsagePanel.removeAll();
+            if (settings.getEnableGPUUsage()) {
+                gpuUsagePanel.add(createGraph(gpuUsage, timeSteps, "GPU Usage", "Time (min)", "Percentage", (float) 0, (float) 100));
+            }
 
-        memoryUsagePanel.removeAll();
-        if(settings.getEnableGPUMemory()) {
-            memoryUsagePanel.add(createGraph(memoryUsage, timeSteps, "Memory Usage", "Time (min)", "Memory Used (GB)", totalMemory));
+            memoryUsagePanel.removeAll();
+            if (settings.getEnableGPUMemory()) {
+                memoryUsagePanel.add(createGraph(memoryUsage, timeSteps, "Memory Usage", "Time (min)", "Memory Used (GB)", (float) 0, totalMemory));
+            }
+            gpuMonitorPanel.validate();
+            gpuMonitorPanel.repaint();
         }
-        gpuMonitorPanel.validate();
-        gpuMonitorPanel.repaint();
     }
 
-    public ChartPanel createGraph(List<Float> numbers, List<Float> timeSteps, String title, String xAxisLabel, String yAxisLabel, Float rangeAxisMax) {
+    public ChartPanel createGraph(List<Float> numbers, List<Float> timeSteps, String title, String xAxisLabel, String yAxisLabel, Float rangeAxisMin, Float rangeAxisMax) {
         Float currentTime = ((float)(System.currentTimeMillis() - startTime)) / 1000 / 60;
         XYSeries series = new XYSeries(title);
         for(int i = 0; i < numbers.size(); i++) {
@@ -143,7 +147,7 @@ public class GPUMonitorWindow {
         );
         XYPlot xyPlot = chart.getXYPlot();
         ValueAxis rangeAxis = xyPlot.getRangeAxis();
-        rangeAxis.setRange(0.0, rangeAxisMax);
+        rangeAxis.setRange(rangeAxisMin, rangeAxisMax);
 
         ValueAxis domainAxis = xyPlot.getDomainAxis();
         domainAxis.setRange(-1 * windowLength, 0);
@@ -179,7 +183,11 @@ public class GPUMonitorWindow {
 
     class RefreshGPUStats extends TimerTask {
         public void run() {
-            setGPUStats();
+            if(previousWidth == gpuMonitorPanel.getWidth())
+                setGPUStats(true);
+            else
+                setGPUStats(false);
+            previousWidth = gpuMonitorPanel.getWidth();
         }
     }
 

@@ -20,7 +20,7 @@ import java.awt.*;
 )
 public class GPUMonitorSettings implements PersistentStateComponent<GPUMonitorSettings> {
     public Float windowLength = (float) 1;
-    public Float refreshFrequency = (float) 1;
+    public Float refreshFrequency = (float) 0.5;
 
     public Boolean enableGPUTemp = true;
     public Boolean enableGPUUsage = true;

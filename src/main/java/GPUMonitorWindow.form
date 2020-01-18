@@ -122,7 +122,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="1"/>
+          <text value="0.5"/>
         </properties>
       </component>
     </children>

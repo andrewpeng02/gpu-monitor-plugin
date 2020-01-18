@@ -2,12 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8f3fad4-86c8-4368-bd68-072359567149" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorSettings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorWindow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorWindow$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorWindow$RefreshGPUStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorWindow$RefreshGPUStats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorSettings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorWindow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorWindow$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorWindow$RefreshGPUStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorWindow$RefreshGPUStats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/recentProjects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/recentProjects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/usage.statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/usage.statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/workspace/1Vu5FA7quvGPeOGrjS14lF28I1v.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/workspace/1Vu5FA7quvGPeOGrjS14lF28I1v.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/availables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins/availables.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/availables.xml.etag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins/availables.xml.etag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/conversion/untitled90a83042.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/conversion/untitled90a83042.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/patchedPluginXmlFiles/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/patchedPluginXmlFiles/plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/searchableOptions/platform-impl.jar/search/platform-impl.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/searchableOptions/platform-impl.jar/search/platform-impl.jar.searchableOptions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GPUMonitorSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GPUMonitorSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GPUMonitorWindow.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GPUMonitorWindow.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GPUMonitorWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GPUMonitorWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +233,8 @@
       <workItem from="1578192372417" duration="10000" />
       <workItem from="1579315295094" duration="3336000" />
       <workItem from="1579361012257" duration="4331000" />
-      <workItem from="1579366656658" duration="242000" />
+      <workItem from="1579366656658" duration="654000" />
+      <workItem from="1579367322879" duration="1227000" />
     </task>
     <task id="LOCAL-00001" summary="added darcula theme&#10;decreased flickering&#10;changed window time to min">
       <created>1579364969870</created>
@@ -222,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579365336160</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added min version">
+      <created>1579366963931</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579366963931</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +274,8 @@
     <MESSAGE value="added darcula theme&#10;decreased flickering&#10;changed window time to min" />
     <MESSAGE value="changed domain time to constant" />
     <MESSAGE value="update to 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="update to 1.1" />
+    <MESSAGE value="added min version" />
+    <option name="LAST_COMMIT_MESSAGE" value="added min version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="875" y="386" width="800" height="675" key="#Plugins" timestamp="1578191344454">
@@ -243,6 +286,10 @@
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
     <state x="875" y="386" width="800" height="675" key="#Project_Structure/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578091745764" />
+    <state x="738" y="383" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579367438577">
+      <screen x="0" y="10" width="2560" height="1430" />
+    </state>
+    <state x="738" y="383" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579367438577" />
     <state x="1088" y="431" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1578166878302">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
@@ -259,30 +306,30 @@
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
     <state x="1150" y="608" width="259" height="233" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578168354362" />
-    <state x="843" y="234" width="864" height="980" key="CommitChangelistDialog2" timestamp="1579365335597">
+    <state x="843" y="234" width="864" height="980" key="CommitChangelistDialog2" timestamp="1579368578323">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
-    <state x="843" y="234" width="864" height="980" key="CommitChangelistDialog2/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579365335597" />
+    <state x="843" y="234" width="864" height="980" key="CommitChangelistDialog2/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579368578323" />
     <state x="1058" y="467" width="424" height="511" key="FileChooserDialogImpl" timestamp="1578150592052">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
     <state x="1058" y="467" width="424" height="511" key="FileChooserDialogImpl/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578150592052" />
-    <state width="2514" height="469" key="GridCell.Tab.0.bottom" timestamp="1579365343752">
+    <state width="2514" height="379" key="GridCell.Tab.0.bottom" timestamp="1579368552437">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
-    <state width="2514" height="469" key="GridCell.Tab.0.bottom/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579365343752" />
-    <state width="2514" height="469" key="GridCell.Tab.0.center" timestamp="1579365343751">
+    <state width="2514" height="379" key="GridCell.Tab.0.bottom/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579368552437" />
+    <state width="2514" height="379" key="GridCell.Tab.0.center" timestamp="1579368552436">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
-    <state width="2514" height="469" key="GridCell.Tab.0.center/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579365343751" />
-    <state width="2514" height="469" key="GridCell.Tab.0.left" timestamp="1579365343751">
+    <state width="2514" height="379" key="GridCell.Tab.0.center/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579368552436" />
+    <state width="2514" height="379" key="GridCell.Tab.0.left" timestamp="1579368552436">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
-    <state width="2514" height="469" key="GridCell.Tab.0.left/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579365343751" />
-    <state width="2514" height="469" key="GridCell.Tab.0.right" timestamp="1579365343752">
+    <state width="2514" height="379" key="GridCell.Tab.0.left/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579368552436" />
+    <state width="2514" height="379" key="GridCell.Tab.0.right" timestamp="1579368552437">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
-    <state width="2514" height="469" key="GridCell.Tab.0.right/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579365343752" />
+    <state width="2514" height="379" key="GridCell.Tab.0.right/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579368552437" />
     <state width="2514" height="469" key="GridCell.Tab.1.bottom" timestamp="1579365343752">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
@@ -307,10 +354,10 @@
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
     <state x="100" y="110" width="2360" height="1230" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579318602852" />
-    <state x="916" y="297" width="728" height="855" key="find.popup" timestamp="1578163458231">
+    <state x="916" y="297" width="1031" height="855" key="find.popup" timestamp="1579367560734">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
-    <state x="916" y="297" width="728" height="855" key="find.popup/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578163458231" />
+    <state x="916" y="297" width="1031" height="855" key="find.popup/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579367560734" />
     <state x="943" y="336" width="672" height="678" key="search.everywhere.popup" timestamp="1578191333114">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
