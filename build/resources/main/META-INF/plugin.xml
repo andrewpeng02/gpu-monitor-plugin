@@ -1,5 +1,5 @@
 <idea-plugin>
-  <version>1.0</version>
+  <version>1.1</version>
   <description>
         GPU Monitor adds a tool window on the right side to monitor GPU temperatures, usage, and memory usage. Currently only supports single NVIDIA gpu setups. 
         </description>
@@ -8,6 +8,12 @@
   <name>GPU Monitor</name>
   <vendor email="andrewpeng02@gmail.com" url="andrewpeng.dev">Andrew Peng</vendor>
   <change-notes>
+        &lt;h3&gt;Changes in 1.1&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Added darcula theme.
+            &lt;li&gt;Decreased flickering when moving the tool window.
+            &lt;li&gt;Changed time axis on graphs.
+        &lt;/ul&gt;
         &lt;h3&gt;Changes in 1.0&lt;/h3&gt;
         &lt;ul&gt;
             &lt;li&gt;Basic functionality added with graphs for GPU temperatures, usage, and memory usage.

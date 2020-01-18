@@ -3,6 +3,8 @@
     <name>GPU Monitor</name>
     <vendor email="andrewpeng02@gmail.com" url="andrewpeng.dev">Andrew Peng</vendor>
 
+    <idea-version since-build="172"/>
+
     <change-notes> Changenotes and description are located in the build.gradle file </change-notes>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
