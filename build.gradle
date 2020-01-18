@@ -3,7 +3,7 @@ plugins {
     id 'org.jetbrains.intellij' version '0.4.15'
 }
 
-version '1.0'
+version '1.1'
 
 sourceCompatibility = 1.8
 
@@ -26,6 +26,12 @@ patchPluginXml {
         """
 
     changeNotes """
+        <h3>Changes in 1.1</h3>
+        <ul>
+            <li>Added darcula theme.
+            <li>Decreased flickering when moving the tool window.
+            <li>Changed time axis on graphs.
+        </ul>
         <h3>Changes in 1.0</h3>
         <ul>
             <li>Basic functionality added with graphs for GPU temperatures, usage, and memory usage.
