@@ -5,6 +5,7 @@
     <property name="FileTemplates.SelectedTemplate" value="HTML File" />
     <property name="MarketplacePluginsSearchHistory" value="c&#10;cpu&#10;cpu usage" />
     <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="SettingsSearchHistory" value="gpu" />
     <property name="defaultJdkConfigured" value="true" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/IdeaProjects/untitled" />
     <property name="ide.memory.adjusted" value="true" />

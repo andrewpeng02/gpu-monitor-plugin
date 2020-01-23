@@ -1,4 +1,3 @@
-import com.intellij.openapi.options.ConfigurationException;
 import com.intellij.openapi.options.SearchableConfigurable;
 import org.jetbrains.annotations.Nls;
 import org.jetbrains.annotations.NotNull;
@@ -35,12 +34,7 @@ public class GPUMonitorConfig implements SearchableConfigurable {
     }
 
     @Override
-    public void apply() throws ConfigurationException {
+    public void apply() {
         configForm.apply();
-    }
-
-    @Override
-    public void reset() {
-        configForm.reset();
     }
 }

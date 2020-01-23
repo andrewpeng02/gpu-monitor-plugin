@@ -7,8 +7,9 @@
     <converter id="android-proguard-options" />
   </applied-converters>
   <project-files>
-    <file path="/home/andrew/IdeaProjects/untitled/.idea/untitled.iml" timestamp="1578090035683" />
-    <file path="/home/andrew/IdeaProjects/untitled/.idea/workspace.xml" timestamp="1579369233310" />
-    <file path="/home/andrew/IdeaProjects/untitled/.idea/modules.xml" timestamp="1578090035695" />
+    <file path="/home/andrew/IdeaProjects/untitled/.idea/modules.xml" timestamp="1579748708049" />
+    <file path="/home/andrew/IdeaProjects/untitled/.idea/misc.xml" timestamp="1579748639995" />
+    <file path="/home/andrew/IdeaProjects/untitled/.idea/untitled.iml" timestamp="1579748708033" />
+    <file path="/home/andrew/IdeaProjects/untitled/.idea/workspace.xml" timestamp="1579748708041" />
   </project-files>
 </conversion>

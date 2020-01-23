@@ -1,6 +1,6 @@
 <application>
   <component name="WindowManager">
-    <frame x="2847" y="360" width="1717" height="1080" extendedState="6" />
+    <frame x="2560" y="360" width="1920" height="1080" extendedState="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -17,6 +17,10 @@
     </layout>
   </component>
   <component name="WindowStateApplicationService">
+    <state x="969" y="299" width="800" height="675" key="#Plugins" timestamp="1579747531998">
+      <screen x="0" y="10" width="2560" height="1430" />
+    </state>
+    <state x="969" y="299" width="800" height="675" key="#Plugins/0.10.2560.1430/2560.360.1920.1080" timestamp="1579747531998" />
     <state x="1063" y="335" width="424" height="482" key="FileChooserDialogImpl" timestamp="1578091595513">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
@@ -25,9 +29,9 @@
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
     <state x="1280" y="577" key="WELCOME_SCREEN/0.10.2560.1430/2560.360.1920.1080" timestamp="1578091330650" />
-    <state x="589" y="179" width="1372" height="794" key="new project wizard" timestamp="1578091587193">
+    <state x="589" y="179" width="1372" height="794" key="new project wizard" timestamp="1579747536960">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
-    <state x="589" y="179" width="1372" height="794" key="new project wizard/0.10.2560.1430/2560.360.1920.1080" timestamp="1578091587193" />
+    <state x="589" y="179" width="1372" height="794" key="new project wizard/0.10.2560.1430/2560.360.1920.1080" timestamp="1579747536960" />
   </component>
 </application>

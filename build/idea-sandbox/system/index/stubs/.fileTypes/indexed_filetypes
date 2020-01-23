@@ -1,10 +1,13 @@
-1579747154523
-HTML￿stub:com.intellij.psi.tree.IStubFileElementType,0￿1579747154522
-Kotlin￿stub:org.jetbrains.kotlin.psi.stubs.elements.KtFileElementType,126￿1579747154521
-KJSM￿binary stub builder:com.intellij.psi.impl.compiled.ClassFileStubBuilder,-1395690585￿1579747154520
-XML￿binary stub builder:com.intellij.util.xml.stubs.builder.DomStubBuilder,1804543718￿1579747154519
-Groovy￿stub:org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType,44￿1579747154518
-kotlin_builtins￿binary stub builder:com.intellij.psi.impl.compiled.ClassFileStubBuilder,-1395690585￿1579747154517
-JAVA￿stub:com.intellij.psi.impl.source.JavaFileElementType,41￿1579747154516
-CLASS￿binary stub builder:com.intellij.psi.impl.compiled.ClassFileStubBuilder,-1395690585￿1579747154515
-Properties￿stub:com.intellij.lang.properties.parsing.PropertiesElementTypes$1,0￿1579747154514
+1579747439122
+KJSM￿binary stub builder:com.intellij.psi.impl.compiled.ClassFileStubBuilder,971098419￿1579747439121
+Kotlin￿stub:org.jetbrains.kotlin.psi.stubs.elements.KtFileElementType,135￿1579747439120
+DGM￿stub:com.intellij.lang.properties.parsing.PropertiesElementTypes$1,0￿1579747439119
+Properties￿stub:com.intellij.lang.properties.parsing.PropertiesElementTypes$1,0￿1579747439118
+HTML￿stub:com.intellij.psi.xml.HtmlFileElementType,3￿1579747439117
+Markdown￿stub:com.intellij.psi.tree.IStubFileElementType,0￿1579747439116
+JAVA￿stub:com.intellij.psi.impl.source.JavaFileElementType,42￿1579747439115
+CLASS￿binary stub builder:com.intellij.psi.impl.compiled.ClassFileStubBuilder,971098419￿1579747439114
+KNM￿binary stub builder:com.intellij.psi.impl.compiled.ClassFileStubBuilder,971098419￿1579747439113
+kotlin_builtins￿binary stub builder:com.intellij.psi.impl.compiled.ClassFileStubBuilder,971098419￿1579747439112
+XML￿binary stub builder:com.intellij.util.xml.stubs.builder.DomStubBuilder,1804543724￿1579747439111
+Groovy￿stub:org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType,50￿1579747439110

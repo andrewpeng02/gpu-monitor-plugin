@@ -33,16 +33,4 @@ public class GPUMonitorConfigForm {
         settings.setEnableGPUMemory(gpuMemoryCheckbox.isSelected());
         settings.setEnableDarcula(darculaThemeCheckbox.isSelected());
     }
-
-    public void reset() {
-        settings.setEnableGPUTemp(true);
-        settings.setEnableGPUUsage(true);
-        settings.setEnableGPUMemory(true);
-        settings.setEnableDarcula(true);
-
-        gpuTempCheckbox.setSelected(settings.getEnableGPUTemp());
-        gpuUsageCheckbox.setSelected(settings.getEnableGPUUsage());
-        gpuMemoryCheckbox.setSelected(settings.getEnableGPUMemory());
-        darculaThemeCheckbox.setSelected(settings.getEnableDarcula());
-    }
 }

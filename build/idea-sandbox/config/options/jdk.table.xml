@@ -7,9 +7,7 @@
       <homePath value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr-11_0_5-linux-x64-b520.17/jbr" />
       <roots>
         <annotationsPath>
-          <root type="composite">
-            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/jdkAnnotations.jar!/" type="simple" />
-          </root>
+          <root type="composite" />
         </annotationsPath>
         <classPath>
           <root type="composite">
