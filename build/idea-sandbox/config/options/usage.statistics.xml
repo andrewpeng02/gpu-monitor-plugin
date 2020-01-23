@@ -1,11 +1,19 @@
 <application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="GotoAction" count="1" />
+      <entry action="NewProject" count="1" />
+      <entry action="ShowSettings" count="2" />
+      <entry action="WelcomeScreen.Plugins" count="1" />
+    </counts>
+  </component>
   <component name="FeatureUsageStatistics" first-run="1578091607089" have-been-shown="false" show-in-other="true" show-in-compilation="true">
     <feature id="editing.completion.smarttype.afternew" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.camelHumps" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.second.smarttype.aslist" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.surroundwith.statement" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.rename" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="navigation.popup.action" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="navigation.popup.action" count="1" last-shown="0" last-used="1579747163705" shown-count="0" />
     <feature id="editing.completion.cancelByControlArrows" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.finishBySmartEnter" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.popup.symbol" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -85,6 +93,44 @@
       <option name="dayCount" value="0" />
       <option name="lastDate" value="0" />
     </fixesStatsTag>
+  </component>
+  <component name="MainMenuCollector">
+    <counts>
+      <entry path="File -&gt; New -&gt; Project..." count="1" />
+      <entry path="File -&gt; Settings..." count="2" />
+      <entry path="Help -&gt; Find Action..." count="1" />
+    </counts>
+  </component>
+  <component name="StatisticsApplicationUsages">
+    <group name="Git">
+      <project id="untitled1" values="config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.force.push.enabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.push.autoupdate.disabled" collectionTime="1579663905846" />
+    </group>
+    <group name="language-level">
+      <project id="untitled1" values="JDK_1_3" collectionTime="1579663905845" />
+    </group>
+    <group name="images.ide.background">
+      <project id="untitled1" values="editor 0,frame 0" collectionTime="1579663905844" />
+    </group>
+    <group name="module type">
+      <project id="untitled1" values="JAVA_MODULE" collectionTime="1579663905833" />
+    </group>
+    <group name="file-type">
+      <project id="untitled1" values="IDEA_MODULE" collectionTime="1579663905844" />
+    </group>
+  </component>
+  <component name="ToolWindowCollector">
+    <counts>
+      <entry toolWindow="GPU Monitor by Activation" count="2" />
+      <entry toolWindow="Project by Activation" count="1" />
+    </counts>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="StripeButton[Version_Control].hidden" count="1" />
+      <entry feature="ide.settings.GPU_Monitor" count="4" />
+      <entry feature="ideaapp.started" count="4" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="1" />
+    </counts>
   </component>
   <component name="UsagesStatistic" show-notification="false" />
 </application>

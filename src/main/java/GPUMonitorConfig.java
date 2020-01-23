@@ -38,4 +38,9 @@ public class GPUMonitorConfig implements SearchableConfigurable {
     public void apply() throws ConfigurationException {
         configForm.apply();
     }
+
+    @Override
+    public void reset() {
+        configForm.reset();
+    }
 }

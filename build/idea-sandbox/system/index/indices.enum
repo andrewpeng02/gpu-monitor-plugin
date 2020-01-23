@@ -100,3 +100,11 @@ org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex
 org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex
 org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex
 org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex
+json.schema.properties.index
+java.functional.expression
+android.id.index
+android.value.resources.index
+org.jetbrains.kotlin.idea.versions.KotlinMetadataVersionIndex
+org.jetbrains.kotlin.idea.versions.KotlinJavaScriptAbiVersionIndex
+java.unit.tree
+jvm.hierarchy

@@ -1,25 +1,56 @@
 <application>
   <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/IdeaProjects/untitled2" />
+        <option value="$USER_HOME$/IdeaProjects/untitled1" />
+        <option value="$USER_HOME$/IdeaProjects/untitled" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/IdeaProjects/untitled2" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/IdeaProjects/untitled2" />
+    <option name="pid" value="9471" />
     <option name="additionalInfo">
       <map>
         <entry key="$USER_HOME$/IdeaProjects/untitled">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1Vu5FA7quvGPeOGrjS14lF28I1v">
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+            <RecentProjectMetaInfo>
               <option name="build" value="IC-193.5662.53" />
-              <option name="buildTimestamp" value="1576649771212" />
-              <frame x="2847" y="360" width="1717" height="1080" extendedState="6" />
               <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="projectOpenTimestamp" value="1579369212861" />
+              <option name="buildTimestamp" value="1576649771212" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/untitled1">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1579747231021" />
+              <option name="buildTimestamp" value="1532446440008" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/untitled2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1579747241310" />
+              <option name="buildTimestamp" value="1532446440008" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="recentPaths">
-      <list>
-        <option value="$USER_HOME$/IdeaProjects/untitled" />
-      </list>
-    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
   </component>
 </application>

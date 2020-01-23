@@ -3,7 +3,7 @@
   <description>
         GPU Monitor adds a tool window on the right side to monitor GPU temperatures, usage, and memory usage. Currently only supports single NVIDIA gpu setups. 
         </description>
-  <idea-version since-build="172" until-build="193.*"/>
+  <idea-version since-build="172" until-build="182.*"/>
   <id>gpu-monitor</id>
   <name>GPU Monitor</name>
   <vendor email="andrewpeng02@gmail.com" url="andrewpeng.dev">Andrew Peng</vendor>
