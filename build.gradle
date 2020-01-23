@@ -3,7 +3,7 @@ plugins {
     id 'org.jetbrains.intellij' version '0.4.15'
 }
 
-version '1.2.1'
+version '1.2.2'
 
 sourceCompatibility = 1.8
 
@@ -26,9 +26,13 @@ patchPluginXml {
         """
 
     changeNotes """
+        <h3>Changes in 1.2.2</h3>
+        <ul>
+            <li>Added reset button functionality 
+        </ul>
         <h3>Changes in 1.2.1</h3>
         <ul>
-            <li>Extended compatability 
+            <li>Extended compatability to 2017.2 versions of all IDEs
         </ul>
         <h3>Changes in 1.2</h3>
         <ul>

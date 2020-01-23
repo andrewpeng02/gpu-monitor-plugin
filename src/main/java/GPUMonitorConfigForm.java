@@ -8,6 +8,7 @@ public class GPUMonitorConfigForm {
     private JCheckBox gpuUsageCheckbox;
     private JCheckBox gpuMemoryCheckbox;
     private JCheckBox darculaThemeCheckbox;
+    private JCheckBox lightThemeCheckbox;
 
     private GPUMonitorSettings settings;
 
@@ -24,7 +25,10 @@ public class GPUMonitorConfigForm {
     }
 
     public boolean isModified() {
-        return true;
+        return gpuTempCheckbox.isSelected() != settings.getEnableGPUTemp() ||
+                gpuUsageCheckbox.isSelected() != settings.getEnableGPUUsage() ||
+                gpuMemoryCheckbox.isSelected() != settings.getEnableGPUMemory() ||
+                darculaThemeCheckbox.isSelected() != settings.getEnableDarcula();
     }
 
     public void apply() {
@@ -32,5 +36,12 @@ public class GPUMonitorConfigForm {
         settings.setEnableGPUUsage(gpuUsageCheckbox.isSelected());
         settings.setEnableGPUMemory(gpuMemoryCheckbox.isSelected());
         settings.setEnableDarcula(darculaThemeCheckbox.isSelected());
+    }
+
+    public void reset() {
+        gpuTempCheckbox.setSelected(settings.getEnableGPUTemp());
+        gpuUsageCheckbox.setSelected(settings.getEnableGPUUsage());
+        gpuMemoryCheckbox.setSelected(settings.getEnableGPUMemory());
+        darculaThemeCheckbox.setSelected(settings.getEnableDarcula());
     }
 }

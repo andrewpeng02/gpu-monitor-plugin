@@ -37,4 +37,8 @@ public class GPUMonitorConfig implements SearchableConfigurable {
     public void apply() {
         configForm.apply();
     }
+    @Override
+    public void reset() {
+        configForm.reset();
+     }
 }
