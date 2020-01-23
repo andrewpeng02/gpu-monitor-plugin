@@ -19,24 +19,29 @@ import java.awt.*;
         }
 )
 public class GPUMonitorSettings implements PersistentStateComponent<GPUMonitorSettings> {
-    public Float windowLength = (float) 1;
-    public Float refreshFrequency = (float) 0.5;
+    public Float windowSize = (float) 1;
+    public Float refreshTime = (float) 0.5;
 
     public Boolean enableGPUTemp = true;
     public Boolean enableGPUUsage = true;
     public Boolean enableGPUMemory = true;
 
+    public Boolean enableLight = true;
     public Boolean enableDarcula = false;
+    public Boolean enableCustom = false;
     private StandardChartTheme defaultTheme = new StandardChartTheme("JFree/Shadow", true);
     private StandardChartTheme darculaTheme;
 
-    Float getWindowLength() { return windowLength; }
-    Float getRefreshFrequency() { return refreshFrequency; }
+    Float getWindowSize() { return windowSize; }
+    Float getRefreshTime() { return refreshTime; }
 
     Boolean getEnableGPUTemp() { return enableGPUTemp; }
     Boolean getEnableGPUUsage() { return enableGPUUsage; }
     Boolean getEnableGPUMemory() { return enableGPUMemory; }
+
+    Boolean getEnableLight() { return enableLight; }
     Boolean getEnableDarcula() { return enableDarcula; }
+    Boolean getEnableCustom() { return enableCustom; }
 
     StandardChartTheme getChartTheme() {
         if(enableDarcula) {
@@ -60,10 +65,13 @@ public class GPUMonitorSettings implements PersistentStateComponent<GPUMonitorSe
     void setEnableGPUTemp(Boolean enableGPUTemp) { this.enableGPUTemp = enableGPUTemp; }
     void setEnableGPUUsage(Boolean enableGPUUsage) { this.enableGPUUsage = enableGPUUsage; }
     void setEnableGPUMemory(Boolean enableGPUMemory) { this.enableGPUMemory = enableGPUMemory; }
-    void setEnableDarcula(Boolean enableDarcula) { this.enableDarcula = enableDarcula; }
 
-    void setWindowLength(Float windowLength) { this.windowLength = windowLength; }
-    void setRefreshFrequency(Float refreshFrequency) { this.refreshFrequency = refreshFrequency; }
+    void setEnableLight(Boolean enableLight) { this.enableLight = enableLight; }
+    void setEnableDarcula(Boolean enableDarcula) { this.enableDarcula = enableDarcula; }
+    void setEnableCustom(Boolean enableCustom) { this.enableCustom = enableCustom; }
+
+    void setWindowSize(Float windowSize) { this.windowSize = windowSize; }
+    void setRefreshTime(Float refreshTime) { this.refreshTime = refreshTime; }
 
     @Nullable
     @Override

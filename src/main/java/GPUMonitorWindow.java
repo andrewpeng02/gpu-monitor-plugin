@@ -11,8 +11,6 @@ import org.jfree.data.xy.XYSeriesCollection;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -23,16 +21,14 @@ import java.util.Timer;
 public class GPUMonitorWindow {
     private JPanel gpuMonitorPanel;
     private JPanel gpuTempPanel;
-    private JTextField refreshTimeField;
     private JPanel gpuUsagePanel;
     private JPanel memoryUsagePanel;
-    private JTextField windowLengthField;
 
     private List<Float> timeSteps = new ArrayList<>(); // in minutes
     private Long startTime; // in milliseconds
 
     private int previousWidth;
-    private Float windowLength;
+    private Float windowSize;
     private Float refreshTime;
     private Float totalMemory;
     private List<Float> memoryUsage = new ArrayList<>();
@@ -47,45 +43,18 @@ public class GPUMonitorWindow {
     public GPUMonitorWindow(ToolWindow toolWindow) {
         // Set settings
         settings = GPUMonitorSettings.getInstance();
-        windowLength = settings.getWindowLength();
-        refreshTime = settings.getRefreshFrequency();
-
-        windowLengthField.setText(String.valueOf(windowLength));
-        refreshTimeField.setText(String.valueOf(refreshTime));
+        windowSize = settings.getWindowSize();
+        refreshTime = settings.getRefreshTime();
 
         startTime = System.currentTimeMillis();
         Timer timer = new Timer();
-        timer.schedule(new RefreshGPUStats(), 0, (int) (refreshTime * 1000));
+        timer.schedule(new RefreshGPUStats(), 0);
 
         gpuTempPanel.setLayout(new BorderLayout());
         gpuUsagePanel.setLayout(new BorderLayout());
         memoryUsagePanel.setLayout(new BorderLayout());
 
         previousWidth = gpuMonitorPanel.getWidth();
-        // Update timer if the user changes the refresh frequency
-        refreshTimeField.addActionListener(new ActionListener(){
-                public void actionPerformed(ActionEvent e){
-                    timer.cancel();
-
-                    Timer timer = new Timer();
-                    try {
-                        refreshTime = Float.parseFloat(refreshTimeField.getText());
-                        settings.setRefreshFrequency(refreshTime);
-                        timer.schedule(new RefreshGPUStats(), 0, (int) (refreshTime * 1000));
-                    } catch (NumberFormatException exception) {
-                        refreshTimeField.setText(String.valueOf(refreshTime));
-                    }
-                }});
-
-        windowLengthField.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
-            try {
-                windowLength = Float.parseFloat(windowLengthField.getText());
-                settings.setWindowLength(windowLength);
-            } catch (NumberFormatException exception) {
-                windowLengthField.setText(String.valueOf(windowLength));
-            }
-        }});
     }
 
 
@@ -150,7 +119,7 @@ public class GPUMonitorWindow {
         rangeAxis.setRange(rangeAxisMin, rangeAxisMax);
 
         ValueAxis domainAxis = xyPlot.getDomainAxis();
-        domainAxis.setRange(-1 * windowLength, 0);
+        domainAxis.setRange(-1 * windowSize, 0);
         return new ChartPanel(chart);
     }
 
@@ -188,6 +157,12 @@ public class GPUMonitorWindow {
             else
                 setGPUStats(false);
             previousWidth = gpuMonitorPanel.getWidth();
+
+            windowSize = settings.getWindowSize();
+            refreshTime = settings.getRefreshTime();
+
+            Timer timer = new Timer();
+            timer.schedule(new RefreshGPUStats(), (int) (refreshTime * 1000));
         }
     }
 
