@@ -6,6 +6,9 @@ import org.jfree.chart.StandardChartTheme;
 import org.jfree.chart.axis.ValueAxis;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.chart.plot.XYPlot;
+import org.jfree.chart.renderer.xy.XYBarRenderer;
+import org.jfree.chart.renderer.xy.XYItemRenderer;
+import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 
@@ -117,6 +120,9 @@ public class GPUMonitorWindow {
         XYPlot xyPlot = chart.getXYPlot();
         ValueAxis rangeAxis = xyPlot.getRangeAxis();
         rangeAxis.setRange(rangeAxisMin, rangeAxisMax);
+
+        XYItemRenderer renderer = xyPlot.getRenderer();
+        renderer.setSeriesPaint(0, Color.decode(settings.getLineColor()));
 
         ValueAxis domainAxis = xyPlot.getDomainAxis();
         domainAxis.setRange(-1 * windowSize, 0);

@@ -19,7 +19,7 @@ import java.awt.*;
         }
 )
 public class GPUMonitorSettings implements PersistentStateComponent<GPUMonitorSettings> {
-    public Float windowSize = (float) 1;
+    public Float windowSize = (float) 2;
     public Float refreshTime = (float) 0.5;
 
     public Boolean enableGPUTemp = true;
@@ -31,6 +31,14 @@ public class GPUMonitorSettings implements PersistentStateComponent<GPUMonitorSe
     public Boolean enableCustom = false;
     private StandardChartTheme defaultTheme = new StandardChartTheme("JFree/Shadow", true);
     private StandardChartTheme darculaTheme;
+    private StandardChartTheme customTheme;
+
+    public String titleColor = "#000000";
+    public String axisLabelColor = "#404040";
+    public String tickColor = "#404040";
+    public String backgroundColor = "#FFFFFF";
+    public String lineColor = "#FF0000";
+    public String plotBackgroundColor = "#C0C0C0";
 
     Float getWindowSize() { return windowSize; }
     Float getRefreshTime() { return refreshTime; }
@@ -43,22 +51,37 @@ public class GPUMonitorSettings implements PersistentStateComponent<GPUMonitorSe
     Boolean getEnableDarcula() { return enableDarcula; }
     Boolean getEnableCustom() { return enableCustom; }
 
+    String getTitleColor() { return titleColor; }
+    String getAxisLabelColor() { return axisLabelColor; }
+    String getTickColor() { return tickColor; }
+    String getBackgroundColor() { return backgroundColor; }
+    String getLineColor() { return lineColor; }
+    String getPlotBackgroundColor() { return plotBackgroundColor; }
+
     StandardChartTheme getChartTheme() {
         if(enableDarcula) {
             if(darculaTheme == null) {
                 darculaTheme = new StandardChartTheme("JFree/Shadow", true);
-                Color color = new Color(60, 63, 65);
-                darculaTheme.setChartBackgroundPaint(color);
-                color = new Color(187, 186, 177);
-                darculaTheme.setTickLabelPaint(color);
-                color = new Color(187, 186, 177);
-                darculaTheme.setTitlePaint(color);
-                color = new Color(187, 186, 177);
-                darculaTheme.setAxisLabelPaint(color);
+                darculaTheme.setChartBackgroundPaint(Color.decode("#3C3F41"));;
+                darculaTheme.setTickLabelPaint(Color.decode("#BBBAB1"));
+                darculaTheme.setTitlePaint(Color.decode("#BBBAB1"));
+                darculaTheme.setAxisLabelPaint(Color.decode("#BBBAB1"));
             }
+
+            setLineColor("#ff0000");
             return darculaTheme;
-        } else {
+        } else if (enableLight){
+            setLineColor("#ff0000");
             return defaultTheme;
+        } else {
+            customTheme = new StandardChartTheme("JFree/Shadow", true);
+            customTheme.setTitlePaint(Color.decode(getTitleColor()));
+            customTheme.setAxisLabelPaint(Color.decode(getAxisLabelColor()));
+            customTheme.setTickLabelPaint(Color.decode(getTickColor()));
+            customTheme.setChartBackgroundPaint(Color.decode(getBackgroundColor()));
+            customTheme.setPlotBackgroundPaint(Color.decode(getPlotBackgroundColor()));
+
+            return customTheme;
         }
     }
 
@@ -72,6 +95,13 @@ public class GPUMonitorSettings implements PersistentStateComponent<GPUMonitorSe
 
     void setWindowSize(Float windowSize) { this.windowSize = windowSize; }
     void setRefreshTime(Float refreshTime) { this.refreshTime = refreshTime; }
+
+    void setTitleColor(String titleColor) { this.titleColor = titleColor; }
+    void setAxisLabelColor(String axisLabelColor) { this.axisLabelColor = axisLabelColor; }
+    void setTickColor(String tickColor) { this.tickColor = tickColor; }
+    void setBackgroundColor(String backgroundColor) { this.backgroundColor = backgroundColor; }
+    void setLineColor(String lineColor) { this.lineColor = lineColor; }
+    void setPlotBackgroundColor(String plotBackgroundColor) { this.plotBackgroundColor = plotBackgroundColor; }
 
     @Nullable
     @Override

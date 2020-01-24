@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8f3fad4-86c8-4368-bd68-072359567149" name="Default Changelist" comment="fixed reset button">
+    <list default="true" id="e8f3fad4-86c8-4368-bd68-072359567149" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorConfigForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorConfigForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorSettings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorWindow$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorWindow$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorWindow$RefreshGPUStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorWindow$RefreshGPUStats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/GPUMonitorWindow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorConfigForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorConfigForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorSettings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorWindow$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorWindow$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorWindow$RefreshGPUStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorWindow$RefreshGPUStats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GPUMonitorWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/other.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/recentProjects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/recentProjects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/window.state.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/window.state.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/availables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins/availables.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageData" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageRecordIndex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat" afterDir="false" />
@@ -23,10 +37,13 @@
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/conversion/untitled90a83042.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/conversion/untitled90a83042.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpu-monitor-config.png" beforeDir="false" afterPath="$PROJECT_DIR$/gpu-monitor-config.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpu-monitor-graphs.png" beforeDir="false" afterPath="$PROJECT_DIR$/gpu-monitor-graphs.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GPUMonitorConfigForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GPUMonitorConfigForm.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GPUMonitorConfigForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GPUMonitorConfigForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GPUMonitorSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GPUMonitorSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GPUMonitorWindow.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GPUMonitorWindow.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GPUMonitorWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GPUMonitorWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +139,7 @@
       <recent name="$USER_HOME$/IdeaProjects/" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.gpu-monitor [runIde]">
+  <component name="RunManager" selected="Gradle.gpu-monitor [buildPlugin]">
     <configuration name="Plugin" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -285,7 +302,10 @@
       <workItem from="1579575463109" duration="82000" />
       <workItem from="1579662482663" duration="4663000" />
       <workItem from="1579742635273" duration="3875000" />
-      <workItem from="1579814753389" duration="1359000" />
+      <workItem from="1579814753389" duration="2260000" />
+      <workItem from="1579817162714" duration="1194000" />
+      <workItem from="1579901602787" duration="5401000" />
+      <workItem from="1579907260131" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="added darcula theme&#10;decreased flickering&#10;changed window time to min">
       <created>1579364969870</created>
@@ -350,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579749984749</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="moved window size and refresh time settings into settings">
+      <created>1579816253397</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579816253397</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +403,8 @@
     <MESSAGE value="added reset button functionality" />
     <MESSAGE value="reset" />
     <MESSAGE value="fixed reset button" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed reset button" />
+    <MESSAGE value="moved window size and refresh time settings into settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved window size and refresh time settings into settings" />
   </component>
   <component name="WindowStateProjectService">
     <state x="875" y="386" width="800" height="675" key="#Plugins" timestamp="1578191344454">
@@ -407,54 +435,54 @@
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
     <state x="1150" y="608" width="250" height="231" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579750036531" />
-    <state x="843" y="234" width="864" height="980" key="CommitChangelistDialog2" timestamp="1579816250409">
+    <state x="843" y="234" width="864" height="980" key="CommitChangelistDialog2" timestamp="1579907672706">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
-    <state x="843" y="234" width="864" height="980" key="CommitChangelistDialog2/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579816250409" />
+    <state x="843" y="234" width="864" height="980" key="CommitChangelistDialog2/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579907672706" />
     <state x="1058" y="467" width="424" height="511" key="FileChooserDialogImpl" timestamp="1578150592052">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
     <state x="1058" y="467" width="424" height="511" key="FileChooserDialogImpl/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1578150592052" />
-    <state width="2514" height="379" key="GridCell.Tab.0.bottom" timestamp="1579816181540">
+    <state width="2514" height="379" key="GridCell.Tab.0.bottom" timestamp="1579907650967">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
-    <state width="2514" height="379" key="GridCell.Tab.0.bottom/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579816181540" />
-    <state width="2514" height="379" key="GridCell.Tab.0.center" timestamp="1579816181539">
+    <state width="2514" height="379" key="GridCell.Tab.0.bottom/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579907650967" />
+    <state width="2514" height="379" key="GridCell.Tab.0.center" timestamp="1579907650967">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
-    <state width="2514" height="379" key="GridCell.Tab.0.center/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579816181539" />
-    <state width="2514" height="379" key="GridCell.Tab.0.left" timestamp="1579816181539">
+    <state width="2514" height="379" key="GridCell.Tab.0.center/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579907650967" />
+    <state width="2514" height="379" key="GridCell.Tab.0.left" timestamp="1579907650967">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
-    <state width="2514" height="379" key="GridCell.Tab.0.left/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579816181539" />
-    <state width="2514" height="379" key="GridCell.Tab.0.right" timestamp="1579816181539">
+    <state width="2514" height="379" key="GridCell.Tab.0.left/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579907650967" />
+    <state width="2514" height="379" key="GridCell.Tab.0.right" timestamp="1579907650967">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
-    <state width="2514" height="379" key="GridCell.Tab.0.right/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579816181539" />
-    <state width="2514" height="469" key="GridCell.Tab.1.bottom" timestamp="1579750099442">
+    <state width="2514" height="379" key="GridCell.Tab.0.right/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579907650967" />
+    <state width="2514" height="469" key="GridCell.Tab.1.bottom" timestamp="1579903652245">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
-    <state width="2514" height="469" key="GridCell.Tab.1.bottom/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579750099442" />
-    <state width="2514" height="469" key="GridCell.Tab.1.center" timestamp="1579750099442">
+    <state width="2514" height="469" key="GridCell.Tab.1.bottom/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579903652245" />
+    <state width="2514" height="469" key="GridCell.Tab.1.center" timestamp="1579903652245">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
-    <state width="2514" height="469" key="GridCell.Tab.1.center/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579750099442" />
-    <state width="2514" height="469" key="GridCell.Tab.1.left" timestamp="1579750099442">
+    <state width="2514" height="469" key="GridCell.Tab.1.center/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579903652245" />
+    <state width="2514" height="469" key="GridCell.Tab.1.left" timestamp="1579903652245">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
-    <state width="2514" height="469" key="GridCell.Tab.1.left/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579750099442" />
-    <state width="2514" height="469" key="GridCell.Tab.1.right" timestamp="1579750099442">
+    <state width="2514" height="469" key="GridCell.Tab.1.left/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579903652245" />
+    <state width="2514" height="469" key="GridCell.Tab.1.right" timestamp="1579903652245">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
-    <state width="2514" height="469" key="GridCell.Tab.1.right/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579750099442" />
+    <state width="2514" height="469" key="GridCell.Tab.1.right/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579903652245" />
     <state x="1005" y="353" width="539" height="742" key="RollbackChangesDialog" timestamp="1579747919707">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
     <state x="1005" y="353" width="539" height="742" key="RollbackChangesDialog/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579747919707" />
-    <state x="763" y="302" width="1024" height="843" key="SettingsEditor" timestamp="1579750092771">
+    <state x="763" y="302" width="1024" height="843" key="SettingsEditor" timestamp="1579816469629">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>
-    <state x="763" y="302" width="1024" height="843" key="SettingsEditor/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579750092771" />
+    <state x="763" y="302" width="1024" height="843" key="SettingsEditor/0.10.2560.1430/2560.360.1920.1080@0.10.2560.1430" timestamp="1579816469629" />
     <state x="834" y="348" width="882" height="751" key="VCS.ChangeListViewerDialog" timestamp="1579748006387">
       <screen x="0" y="10" width="2560" height="1430" />
     </state>

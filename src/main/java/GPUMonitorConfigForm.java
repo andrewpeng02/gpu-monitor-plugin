@@ -1,6 +1,8 @@
 import com.intellij.openapi.project.Project;
 
 import javax.swing.*;
+import java.awt.*;
+import java.util.function.Consumer;
 
 public class GPUMonitorConfigForm {
     private JCheckBox gpuTempCheckbox;
@@ -12,6 +14,12 @@ public class GPUMonitorConfigForm {
     private JCheckBox customThemeCheckbox;
     private JTextField windowSizeField;
     private JTextField refreshTimeField;
+    private JTextField titleColorField;
+    private JTextField axisLabelColorField;
+    private JTextField tickColorField;
+    private JTextField backgroundColorField;
+    private JTextField lineColorField;
+    private JTextField plotBackgroundColorField;
 
     private GPUMonitorSettings settings;
 
@@ -27,6 +35,19 @@ public class GPUMonitorConfigForm {
         lightThemeCheckbox.setSelected(settings.getEnableLight());
         darculaThemeCheckbox.setSelected(settings.getEnableDarcula());
         customThemeCheckbox.setSelected(settings.getEnableCustom());
+
+        titleColorField.setText(settings.getTitleColor());
+        titleColorField.setBackground(Color.decode(settings.getTitleColor()));
+        axisLabelColorField.setText(settings.getAxisLabelColor());
+        axisLabelColorField.setBackground(Color.decode(settings.getAxisLabelColor()));
+        tickColorField.setText(settings.getTickColor());
+        tickColorField.setBackground(Color.decode(settings.getTickColor()));
+        backgroundColorField.setText(settings.getBackgroundColor());
+        backgroundColorField.setBackground(Color.decode(settings.getBackgroundColor()));
+        lineColorField.setText(settings.getLineColor());
+        lineColorField.setBackground(Color.decode(settings.getLineColor()));
+        plotBackgroundColorField.setText(settings.getPlotBackgroundColor());
+        plotBackgroundColorField.setBackground(Color.decode(settings.getPlotBackgroundColor()));
     }
 
     public JPanel getRootPanel() {
@@ -41,7 +62,13 @@ public class GPUMonitorConfigForm {
                 darculaThemeCheckbox.isSelected() != settings.getEnableDarcula() ||
                 customThemeCheckbox.isSelected() != settings.getEnableCustom() ||
                 !windowSizeField.getText().equals(settings.getWindowSize().toString()) ||
-                !refreshTimeField.getText().equals(settings.getRefreshTime().toString());
+                !refreshTimeField.getText().equals(settings.getRefreshTime().toString()) ||
+                !titleColorField.getText().equals(settings.getTitleColor()) ||
+                !axisLabelColorField.getText().equals(settings.getAxisLabelColor()) ||
+                !tickColorField.getText().equals(settings.getTickColor()) ||
+                !backgroundColorField.getText().equals(settings.getBackgroundColor()) ||
+                !lineColorField.getText().equals(settings.getLineColor()) ||
+                !plotBackgroundColorField.getText().equals(settings.getPlotBackgroundColor());
     }
 
     public void apply() {
@@ -66,6 +93,13 @@ public class GPUMonitorConfigForm {
         } catch (NumberFormatException exception) {
             windowSizeField.setText(String.valueOf(settings.getWindowSize()));
         }
+
+        trySetColor(titleColorField, settings.getTitleColor(), a -> settings.setTitleColor(a));
+        trySetColor(axisLabelColorField, settings.getAxisLabelColor(), a -> settings.setAxisLabelColor(a));
+        trySetColor(tickColorField, settings.getTickColor(), a -> settings.setTickColor(a));
+        trySetColor(backgroundColorField, settings.getBackgroundColor(), a -> settings.setBackgroundColor(a));
+        trySetColor(lineColorField, settings.getLineColor(), a -> settings.setLineColor(a));
+        trySetColor(plotBackgroundColorField, settings.getPlotBackgroundColor(), a -> settings.setPlotBackgroundColor(a));
     }
 
     public void reset() {
@@ -79,5 +113,19 @@ public class GPUMonitorConfigForm {
 
         windowSizeField.setText(settings.getWindowSize().toString());
         refreshTimeField.setText(settings.getRefreshTime().toString());
+    }
+
+    private void trySetColor(JTextField colorField, String prevColor, Consumer<String> setColor) {
+        try {
+            String color = colorField.getText();
+            if(!color.substring(0, 1).equals("#"))
+                color = "#" + color;
+
+            colorField.setBackground(Color.decode(color));
+            colorField.setText(color);
+            setColor.accept(color);
+        } catch (Exception exception) {
+            colorField.setText(prevColor);
+        }
     }
 }
