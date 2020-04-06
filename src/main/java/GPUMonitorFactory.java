@@ -46,6 +46,9 @@ public class GPUMonitorFactory implements ToolWindowFactory {
         if(output.size() < 50)
             enableMonitor = false;
 
+        if(!enableMonitor)
+            new ErrorDialog().show();
+
         return enableMonitor;
     }
 }

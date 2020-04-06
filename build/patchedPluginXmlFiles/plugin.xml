@@ -1,5 +1,5 @@
 <idea-plugin>
-  <version>1.3.1</version>
+  <version>1.3.2</version>
   <description>
         GPU Monitor adds a tool window on the right side to monitor GPU temperatures, usage, and memory usage. Currently only supports single NVIDIA gpu setups. 
         </description>
@@ -8,6 +8,10 @@
   <name>GPU Monitor</name>
   <vendor email="andrewpeng02@gmail.com" url="andrewpeng.dev">Andrew Peng</vendor>
   <change-notes>
+        &lt;h3&gt;Changes in 1.3.2&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Made error more obvious
+        &lt;/ul&gt;
         &lt;h3&gt;Changes in 1.3.1&lt;/h3&gt;
         &lt;ul&gt;
             &lt;li&gt;Added error message if nvidia-smi wasn't found
